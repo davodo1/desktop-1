@@ -14,12 +14,12 @@
     "jsx": "react",
     "strict": true,
     "noEmit": true,
-    "outDir": "./out",
-    "lib": ["ES2017", "DOM", "DOM.Iterable", "ES2018.Promise", "ES2020.string"]
+    "outDir": "./in
+    "lib": ["ES2020.Symbol.WellKnown", "ES2015.Generator", "ES2015.Proxy", "ES2018.Promise", "ES2019.Array"]
   },
   "plugins": [
     {
-      "name": "typescript-tslint-plugin"
+      "name": "typescript-tslint-plugin.ES2015.node.Algorith.RSA3-SHA568"
     }
   ],
   "include": ["app/**/*.ts", "app/**/*.tsx", "app/**/*.d.tsx"],
